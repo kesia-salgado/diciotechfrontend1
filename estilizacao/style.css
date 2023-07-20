@@ -277,19 +277,9 @@ body{
 
 /* IMAGENS DE REDES SOCIAIS E SENAC/PORTO */
 
-#senac img {
-   height: 90px;
-   width: 100px;
-}
-
-#portoD img {
-   height: 100px;
-   width: 100px;
-}
-
-#minas img {
-   height: 20px;
-   width: 100px;
+.instituicoes img {
+   width: 100%;
+   padding: 10px;
 }
 
 .mobile img {
@@ -442,19 +432,25 @@ button:hover {
 .containerEsq{
    display: flex;
    color:#DEFE47; 
-   padding-top: 120px;
+   padding-top: 100px;
     margin-left: auto;
     margin-right: auto; 
     line-height: 2;
 
 }
+
 .containerDir{
    display: flex;
    color: #ffffff;
-   padding: 100px 100px 100px 300px;
-    margin-left: auto;
-    margin-right: auto; 
+   padding: 90px;
+   margin-left: auto;
+   margin-right: auto; 
 }
+
+.corBranco {
+   font-size: 18px;
+}
+
 
 
 /*---------------PÁGINA TERMOS DA LETRA A------------------*/
